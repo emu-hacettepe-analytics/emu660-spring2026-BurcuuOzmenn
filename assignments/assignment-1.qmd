@@ -1,5 +1,6 @@
 ---
 title: "Assignment 1"
+format: html
 ---
 
 # Assignment 1
@@ -45,7 +46,7 @@ Finish your project with referring back to your problem definition and demonstra
 **Q:** Choose the answer from the options below that matches the analytics type, definition and example correctly. 
 
 | Analytics Type | **Analytics Definition** | **Analytics Example** |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | A-Descriptive | I- addresses the critical question of why an occurence or anomaly occured within your data. | 1- A sales team analyzing number of sales each week. |
 | B-Predictive | II- the merging of other 3 types of analytics to drive decision making. | 2- A sales team analyzing why sales are increased in one segment but not another. |
 | C-Diagnostic | III- used to understand the overall performance at an aggregate level. | 3- A sales team estimating product demand for next season. |
@@ -67,4 +68,149 @@ e\) D-I-4
 
 ## (c)
 
+```{r}
+# mtcars veri setini yükle
+data("mtcars")
+
+# mtcars veri setini görüntüle, fonksiyonu kontrol amaçlı kullanılacak
+#print(mtcars)
+
+#  write a custom summary function
+compute_stats <-function(x) {
+  sonuc <- list(mean = mean(x, na.rm = FALSE), 
+    median = median(x, na.rm = FALSE), 
+    variance = var(x, y = NULL, na.rm = FALSE), 
+    IQR = IQR(x, na.rm = FALSE), 
+    min = min(x, na.rm = FALSE), 
+    max = max(x, na.rm = FALSE))
+  
+  return(sonuc)
+}
+sonuc <- compute_stats(mtcars$mpg)
+
+# sonucu print et
+print(sonuc)
+```
+
+```{r}
+#compute_stats(mtcars$mpg)
+
+# applying the function using a loop
+
+# veri setindeki kolon sayısı
+num_columns <- ncol(mtcars)
+#print(num_columns)
+
+for (i in 1:num_columns) {
+    column_values <- mtcars[, i]
+    sonuc2 <-compute_stats(column_values)
+    print(sonuc2)}
+
+```
+
+```{r}
+# an alternative approach with sapply and apply
+
+# apply
+sonuc3 <- apply(mtcars, 2, compute_stats)
+print(sonuc3)
+
+# sapply
+sonuc4 <- sapply(mtcars, compute_stats)
+print(sonuc4)
+
+
+```
+
 ## (d)
+
+```{r}
+# polls_us_election_2016 veri setini yükle
+install.packages("dslabs")
+library(dslabs)
+data("polls_us_election_2016")
+
+# polls_us_election_2016 veri setini görüntüle, kontrol amaçlı kullanılacak
+# print(polls_us_election_2016)
+
+my_first <- "BURCUO"
+my_birth_year <- 1994
+k <- (nchar(my_first) + my_birth_year) %% 15 + 8
+# print(k)
+
+# k çift ise 
+if (k %% 2 == 0){print(head(polls_us_election_2016,k))} else {
+  # k tek ise
+  print(tail(polls_us_election_2016,k))}
+```
+
+```{r}
+
+#calculate & display the total number of NA values
+total_na <- sum(is.na(polls_us_election_2016))
+print(total_na)
+
+# calculate & display number of NA values per column
+# veri setindeki kolon sayısı
+num_columns2 <- ncol(polls_us_election_2016)
+#print(num_columns2)
+
+# her kolondaki NA sayısı
+na_column <- sapply(polls_us_election_2016, function(x) sum(is.na(x)))
+# print(na_column)
+# büyükten küçüğe sırala
+na_column_sort <- sort(na_column, decreasing=TRUE)
+# print(na_column_sort)
+# display the top 8 
+print(head(na_column_sort,8))
+```
+
+```{r}
+
+#replace NA values
+new_data_set <- polls_us_election_2016
+
+#column sayısı
+num_columns2 <- ncol(new_data_set)
+#print(num_columns2)
+
+#numaric ise
+for (i in 1:num_columns2) {
+  if(is.numeric(new_data_set[[i]])){
+    new_data_set[[i]][is.na(new_data_set[[i]])] <- my_birth_year + k
+    }
+  }
+
+#character ise
+for (i in 1:num_columns2) {
+  if(is.character(new_data_set[[i]])){
+          new_data_set[[i]][is.na(new_data_set[[i]])] <- paste0(my_first, "_", k)
+  }
+}
+
+#factor ise
+for (i in 1:num_columns2) {
+  if(is.factor(new_data_set[[i]])){
+    new_data_set[[i]] <- as.character(new_data_set[[i]])
+    new_data_set[[i]][is.na(new_data_set[[i]])] <- paste0(my_first, "_", k)
+  }
+}
+
+print(new_data_set)
+
+```
+
+```{r}
+
+# k çift ise 
+if (k %% 2 == 0){print(head(new_data_set,k))} else {
+  # k tek ise
+  print(tail(new_data_set,k))}
+
+#calculate & display the total number of NA values
+total_na_new <- sum(is.na(new_data_set))
+print(total_na_new)
+
+print(anyNA(new_data_set))
+
+```
