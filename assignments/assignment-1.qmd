@@ -8,8 +8,63 @@ title: "Assignment 1"
 1 + 1
 ```
 
-My first assignment has two parts.
+My first assignment has four parts. The first two parts are related to the video "Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Baykal Hafızoğlu & Erdi Daşdemir".
 
 ## (a)
 
+I selected "Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Baykal Hafızoğlu & Erdi Daşdemir" and below is the brief summary of the video:
+
+First Erdi Daşdemir introduced Baykal Hafızoğlu and his background. Then Baykal Hafızoğlu explained his educational and business background in detail.
+
+Descriptive Analytics, Diagnostic Analytics, Predictive Analytics, Prescriptive Analytics and the relations between them were explained.
+
+-   Descriptive Analytics: Data summarization, data visualization, define current system performance. (Ex: "Satışlar %15 düştü.") **–\> What happened?**
+
+-   Diagnostic Analytics: Define the cause of the problem. (Ex: "Satışlar neden düştü?") **-\> Why it happened?**
+
+-   Predictive Analytics: Analyze past and current data and predict future. **–\> What will happen?**
+
+-   Prescriptive Analytics: decide action items **–\> What should be done?**
+
+Baykal Hafızoğlu also explained how to achieve successful project. All projects should start with a clear problem definition. One should define quantifiable KPIs and success criteria. Use descriptive analytics in problem definition so that the problem definition is clear for everyone.
+
+The model used for the project should be user-friendly and simple. User feedback should be gathered with early prototyping. The model should be basic and solvable, not complex. Simple but less efficient solutions are better than more efficient but complex solutions.
+
+Finish your project with referring back to your problem definition and demonstrate how much KPI improvement was achieved and conversely how much deterioration happened to other KPIs.
+
 ## (b)
+
+**Open-Ended Question**
+
+**Q:** Explain the importance of UI in models.
+
+**A:** In order to customers adopt the models that you developed, the models should be simple, user-friendly (easy to use), easy to understand and explain the results of the model. Even if the solutions are less efficient, customers tend to use simple models with better UI.
+
+**Multiple-Choice Question**
+
+**Q:** Choose the answer from the options below that matches the analytics type, definition and example correctly. 
+
+| Analytics Type | **Analytics Definition** | **Analytics Example** |
+|----|----|----|
+| A-Descriptive | I- addresses the critical question of why an occurence or anomaly occured within your data. | 1- A sales team analyzing number of sales each week. |
+| B-Predictive | II- the merging of other 3 types of analytics to drive decision making. | 2- A sales team analyzing why sales are increased in one segment but not another. |
+| C-Diagnostic | III- used to understand the overall performance at an aggregate level. | 3- A sales team estimating product demand for next season. |
+| D-Prescriptive | IV- determines what is likely to happen based on historical data. | 4- A sales team recommend the ideal pricing strategy for a specific product. |
+
+Note: The definitons are taken from [the blog post (link)](https://www.analytics8.com/blog/what-are-the-four-types-of-analytics-and-how-do-you-use-them/#) and the definiton of prescriptive analytics is revised for the question.
+
+a\) A-II-1
+
+b\) B-IV-3
+
+c\) B-IV-1
+
+d\) C-III-2
+
+e\) D-I-4
+
+**A:** The correct matchings are A-III-1, B-IV-3, C-I-2, D-II-4. So that the answer is **b**.
+
+## (c)
+
+## (d)

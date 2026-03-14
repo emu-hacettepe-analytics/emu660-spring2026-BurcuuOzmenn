@@ -3,38 +3,45 @@ title: "About Me"
 sidebar: false 
 ---
 
-![](assets/images/vesikalik.jpeg){fig-align="center"}
+![](images/foto.jpg){fig-align="center"}
 
 # Education
 
--   B.S., ................................., ....................................University, Turkey, 20xx - 20xx.
--   M.S., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
--   Ph.D.., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
+-   B.S., Industrial Engineering, İ.D. Bilkent University, Turkey, 2012 - 2017.
+-   M.S., Industrial Engineering, Hacettepe University, Turkey, 2025 - ongoing.
 
 # Work Experience
 
 ## Employements
 
-1.  Firm xxx, position xx, year xxx
+1.  ASELSAN, Product Manager, 2025 - ongoing.
 
-2.  Firm yyy, position yyy, year yyy
+2.  ASELSAN, Project Manager, 2023 - 2025.
+
+3.  ASELSAN, Project Engineer, 2023 - ongoing.
+
+4.  MilSOFT Software Technologies, Program Manager, 2021 - 2023.
+
+5.  MilSOFT Software Technologies, Proposal Specialist, 2017 - 2021.
 
 ## Internships
 
-1.  Firm aaa, position xx, year xxx
+1.  ASELSAN, Intern, 2015.
 
-2.  Firm bbb, position yyy, year yyy
+2.  SAMPA Otomotiv, Intern, 2014.
 
 # Projects
 
-1.  TUBİTAK 1001..........................
+\-
 
 # Publications
 
-1.  Dasdemir, E., Batta, R., Koksalan, M., Tezcaner Ozturk, D. (2022) “UAV Routing for Reconnaissance Mission: A Multi-Objective Orienteering Problem with Time-Dependent Prizes and Multiple Connections”, Computers & Operations Research, 145: 105882.
+\-
 
 # Competencies
 
-R, Quarto, Git, Python
+Project Management, Product Management, Subcontract Management, Project Planning
 
 # Hobbies
+
+Reading, Knitting

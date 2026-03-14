@@ -1,10 +1,13 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to My Analytics Lab",
+    "objectID": "assignments/assignment-1.html",
+    "href": "assignments/assignment-1.html",
+    "title": "Assignment 1",
     "section": "",
-    "text": "Hello!! My name is xxx xxxx.\nThis is my personal webpage.\nPlease stay tuned to follow my works on data analytics, blog posts, and more.\n\n\n\n Back to top"
+    "text": "1 + 1\n\n[1] 2\n\n\nMy first assignment has four parts. The first two parts are related to the video “Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Baykal Hafızoğlu & Erdi Daşdemir”.\n\n\nI selected “Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Baykal Hafızoğlu & Erdi Daşdemir” and below is the brief summary of the video:\nFirst Erdi Daşdemir introduced Baykal Hafızoğlu and his background. Then Baykal Hafızoğlu explained his educational and business background in detail.\nDescriptive Analytics, Diagnostic Analytics, Predictive Analytics, Prescriptive Analytics and the relations between them were explained.\n\nDescriptive Analytics: Data summarization, data visualization, define current system performance. (Ex: “Satışlar %15 düştü.”) –&gt; What happened?\nDiagnostic Analytics: Define the cause of the problem. (Ex: “Satışlar neden düştü?”) -&gt; Why it happened?\nPredictive Analytics: Analyze past and current data and predict future. –&gt; What will happen?\nPrescriptive Analytics: decide action items –&gt; What should be done?\n\nBaykal Hafızoğlu also explained how to achieve successful project. All projects should start with a clear problem definition. One should define quantifiable KPIs and success criteria. Use descriptive analytics in problem definition so that the problem definition is clear for everyone.\nThe model used for the project should be user-friendly and simple. User feedback should be gathered with early prototyping. The model should be basic and solvable, not complex. Simple but less efficient solutions are better than more efficient but complex solutions.\nFinish your project with referring back to your problem definition and demonstrate how much KPI improvement was achieved and conversely how much deterioration happened to other KPIs.\n\n\n\nOpen-Ended Question\nQ: Explain the importance of UI in models.\nA: In order to customers adopt the models that you developed, the models should be simple, user-friendly (easy to use), easy to understand and explain the results of the model. Even if the solutions are less efficient, customers tend to use simple models with better UI.\nMultiple-Choice Question\nQ: Choose the answer from the options below that matches the analytics type, definition and example correctly. \n\n\n\n\n\n\n\n\nAnalytics Type\nAnalytics Definition\nAnalytics Example\n\n\n\n\nA-Descriptive\nI- addresses the critical question of why an occurence or anomaly occured within your data.\n1- A sales team analyzing number of sales each week.\n\n\nB-Predictive\nII- the merging of other 3 types of analytics to drive decision making.\n2- A sales team analyzing why sales are increased in one segment but not another.\n\n\nC-Diagnostic\nIII- used to understand the overall performance at an aggregate level.\n3- A sales team estimating product demand for next season.\n\n\nD-Prescriptive\nIV- determines what is likely to happen based on historical data.\n4- A sales team recommend the ideal pricing strategy for a specific product.\n\n\n\nNote: The definitons are taken from the blog post (link) and the definiton of prescriptive analytics is revised for the question.\na) A-II-1\nb) B-IV-3\nc) B-IV-1\nd) C-III-2\ne) D-I-4\nA: The correct matchings are A-III-1, B-IV-3, C-I-2, D-II-4. So that the answer is b.",
+    "crumbs": [
+      "Assignment 1"
+    ]
   },
   {
     "objectID": "project.html",
@@ -70,28 +73,21 @@
     "text": "3.4 Results\nxxxxxx"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to My Analytics Lab",
+    "section": "",
+    "text": "Hello!! My name is Burcu OZMEN :)\nThis is my personal webpage.\nPlease stay tuned to follow my works on data analytics, blog posts, and more.\n\n\n\n Back to top"
+  },
+  {
     "objectID": "assignments.html",
     "href": "assignments.html",
     "title": "My Assignments",
     "section": "",
-    "text": "On this page, I showcase the assignment I conducted for the [term and year, e.g. Spring 2024-2025] EMU660 Decision Making with Analytics course.\nPlease use left menu to navigate through my assignments.\n\n\n\n Back to top",
+    "text": "On this page, I showcase the assignment I conducted for the Spring 2026 EMU660 Decision Making with Analytics course.\nPlease use left menu to navigate through my assignments.\n\n\n\n Back to top",
     "crumbs": [
       "My Assignments"
     ]
-  },
-  {
-    "objectID": "about.html#employements",
-    "href": "about.html#employements",
-    "title": "About Me",
-    "section": "Employements",
-    "text": "Employements\n\nFirm xxx, position xx, year xxx\nFirm yyy, position yyy, year yyy"
-  },
-  {
-    "objectID": "about.html#internships",
-    "href": "about.html#internships",
-    "title": "About Me",
-    "section": "Internships",
-    "text": "Internships\n\nFirm aaa, position xx, year xxx\nFirm bbb, position yyy, year yyy"
   },
   {
     "objectID": "posts.html",
@@ -101,21 +97,18 @@
     "text": "This page is under construction.\n\n\n\n Back to top"
   },
   {
-    "objectID": "docs/assignments/assignment-1.html",
-    "href": "docs/assignments/assignment-1.html",
-    "title": "Assignment 1",
-    "section": "",
-    "text": "1 + 1\n\n[1] 2\n\n\nMy first assignment has two parts."
+    "objectID": "about.html#employements",
+    "href": "about.html#employements",
+    "title": "About Me",
+    "section": "Employements",
+    "text": "Employements\n\nASELSAN, Product Manager, 2025 - ongoing.\nASELSAN, Project Manager, 2023 - 2025.\nASELSAN, Project Engineer, 2023 - ongoing.\nMilSOFT Software Technologies, Program Manager, 2021 - 2023.\nMilSOFT Software Technologies, Proposal Specialist, 2017 - 2021."
   },
   {
-    "objectID": "assignments/assignment-1.html",
-    "href": "assignments/assignment-1.html",
-    "title": "Assignment 1",
-    "section": "",
-    "text": "1 + 1\n\n[1] 2\n\n\nMy first assignment has two parts.",
-    "crumbs": [
-      "Assignment 1"
-    ]
+    "objectID": "about.html#internships",
+    "href": "about.html#internships",
+    "title": "About Me",
+    "section": "Internships",
+    "text": "Internships\n\nASELSAN, Intern, 2015.\nSAMPA Otomotiv, Intern, 2014."
   },
   {
     "objectID": "assignments/assignment-2.html",
@@ -125,6 +118,26 @@
     "text": "Assignment 2\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\n Back to top",
     "crumbs": [
       "Assignment 2"
+    ]
+  },
+  {
+    "objectID": "assignments/assignment-1.html#a",
+    "href": "assignments/assignment-1.html#a",
+    "title": "Assignment 1",
+    "section": "",
+    "text": "I selected “Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Baykal Hafızoğlu & Erdi Daşdemir” and below is the brief summary of the video:\nFirst Erdi Daşdemir introduced Baykal Hafızoğlu and his background. Then Baykal Hafızoğlu explained his educational and business background in detail.\nDescriptive Analytics, Diagnostic Analytics, Predictive Analytics, Prescriptive Analytics and the relations between them were explained.\n\nDescriptive Analytics: Data summarization, data visualization, define current system performance. (Ex: “Satışlar %15 düştü.”) –&gt; What happened?\nDiagnostic Analytics: Define the cause of the problem. (Ex: “Satışlar neden düştü?”) -&gt; Why it happened?\nPredictive Analytics: Analyze past and current data and predict future. –&gt; What will happen?\nPrescriptive Analytics: decide action items –&gt; What should be done?\n\nBaykal Hafızoğlu also explained how to achieve successful project. All projects should start with a clear problem definition. One should define quantifiable KPIs and success criteria. Use descriptive analytics in problem definition so that the problem definition is clear for everyone.\nThe model used for the project should be user-friendly and simple. User feedback should be gathered with early prototyping. The model should be basic and solvable, not complex. Simple but less efficient solutions are better than more efficient but complex solutions.\nFinish your project with referring back to your problem definition and demonstrate how much KPI improvement was achieved and conversely how much deterioration happened to other KPIs.",
+    "crumbs": [
+      "Assignment 1"
+    ]
+  },
+  {
+    "objectID": "assignments/assignment-1.html#b",
+    "href": "assignments/assignment-1.html#b",
+    "title": "Assignment 1",
+    "section": "",
+    "text": "Open-Ended Question\nQ: Explain the importance of UI in models.\nA: In order to customers adopt the models that you developed, the models should be simple, user-friendly (easy to use), easy to understand and explain the results of the model. Even if the solutions are less efficient, customers tend to use simple models with better UI.\nMultiple-Choice Question\nQ: Choose the answer from the options below that matches the analytics type, definition and example correctly. \n\n\n\n\n\n\n\n\nAnalytics Type\nAnalytics Definition\nAnalytics Example\n\n\n\n\nA-Descriptive\nI- addresses the critical question of why an occurence or anomaly occured within your data.\n1- A sales team analyzing number of sales each week.\n\n\nB-Predictive\nII- the merging of other 3 types of analytics to drive decision making.\n2- A sales team analyzing why sales are increased in one segment but not another.\n\n\nC-Diagnostic\nIII- used to understand the overall performance at an aggregate level.\n3- A sales team estimating product demand for next season.\n\n\nD-Prescriptive\nIV- determines what is likely to happen based on historical data.\n4- A sales team recommend the ideal pricing strategy for a specific product.\n\n\n\nNote: The definitons are taken from the blog post (link) and the definiton of prescriptive analytics is revised for the question.\na) A-II-1\nb) B-IV-3\nc) B-IV-1\nd) C-III-2\ne) D-I-4\nA: The correct matchings are A-III-1, B-IV-3, C-I-2, D-II-4. So that the answer is b.",
+    "crumbs": [
+      "Assignment 1"
     ]
   }
 ]
