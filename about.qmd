@@ -3,7 +3,7 @@ title: "About Me"
 sidebar: false 
 ---
 
-![](images/foto.jpg){fig-align="center"}
+![](assets/images/foto.jpg){fig-align="left" width="225"}
 
 # Education
 
@@ -40,8 +40,13 @@ sidebar: false
 
 # Competencies
 
-Project Management, Product Management, Subcontract Management, Project Planning
+Project Management, Product Management, Subcontract Management, Project Planning, R, Quarto, Git
 
 # Hobbies
 
 Reading, Knitting
+
+
+[[*CV Download Link*]{.underline}](assets/BurcuOzmen_CV.pdf "CV Download Link"){target="_blank"}
+
+![](assets/BurcuOzmen_CV.pdf){fig-alt="Burcu Ozmen cv" fig-align="left"}
