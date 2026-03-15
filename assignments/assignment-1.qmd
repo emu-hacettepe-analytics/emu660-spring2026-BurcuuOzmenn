@@ -5,9 +5,6 @@ format: html
 
 # Assignment 1
 
-```{r}
-1 + 1
-```
 
 My first assignment has four parts. The first two parts are related to the video "Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Baykal Hafızoğlu & Erdi Daşdemir".
 
