@@ -5,7 +5,6 @@ format: html
 
 # Assignment 1
 
-
 My first assignment has four parts. The first two parts are related to the video "Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Baykal Hafızoğlu & Erdi Daşdemir".
 
 ## (a)
@@ -43,7 +42,7 @@ Finish your project with referring back to your problem definition and demonstra
 **Q:** Choose the answer from the options below that matches the analytics type, definition and example correctly. 
 
 | Analytics Type | **Analytics Definition** | **Analytics Example** |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | A-Descriptive | I- addresses the critical question of why an occurence or anomaly occured within your data. | 1- A sales team analyzing number of sales each week. |
 | B-Predictive | II- the merging of other 3 types of analytics to drive decision making. | 2- A sales team analyzing why sales are increased in one segment but not another. |
 | C-Diagnostic | III- used to understand the overall performance at an aggregate level. | 3- A sales team estimating product demand for next season. |

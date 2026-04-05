@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Project X – Burcu Ozmen’s Analytics Lab</title>
+<title>Livability Index for Cities of Türkiye – Burcu Ozmen’s Analytics Lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -313,12 +313,14 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#analysis" id="toc-analysis" class="nav-link" data-scroll-target="#analysis">3. Analysis</a>
   <ul class="collapse">
+  <li><a href="#intuitive-ranking-by-regions" id="toc-intuitive-ranking-by-regions" class="nav-link" data-scroll-target="#intuitive-ranking-by-regions">3.1 Intuitive Ranking by Regions</a></li>
   <li><a href="#exploratory-data-analysis" id="toc-exploratory-data-analysis" class="nav-link" data-scroll-target="#exploratory-data-analysis">3.1 Exploratory Data Analysis</a></li>
   <li><a href="#trend-analysis" id="toc-trend-analysis" class="nav-link" data-scroll-target="#trend-analysis">3.2 Trend Analysis</a></li>
   <li><a href="#model-fitting" id="toc-model-fitting" class="nav-link" data-scroll-target="#model-fitting">3.3 Model Fitting</a></li>
   <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">3.4 Results</a></li>
   </ul></li>
   <li><a href="#results-and-key-takeaways" id="toc-results-and-key-takeaways" class="nav-link" data-scroll-target="#results-and-key-takeaways">4. Results and Key Takeaways</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">5. References</a></li>
   </ul>
 </nav>
 </nav>
@@ -332,7 +334,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Project X</h1>
+<h1 class="title">Livability Index for Cities of Türkiye</h1>
 </div>
 
 
@@ -349,23 +351,25 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Welcome to my/our project page.</p>
+<p>Welcome to my project page.</p>
 <p>Keep an eye on this space to stay updated with my project activities.</p>
-<p>(The titles below are provided as examples; please feel free to adjust them as necessary.)</p>
 <section id="project-overview-and-scope" class="level1">
 <h1>1. Project Overview and Scope</h1>
-<p>xxxxxx</p>
+<p>Livability is a multi-dimensional concept that reflects the overall quality of living considering economic, social, infrastructural and environmental factors. This project aims to construct a <strong>city-level livability index for Türkiye</strong> by integrating multiple indicators and rank cities according to their overall livability.</p>
+<p>In the first phase, I will intuitively select the top 3 most livable cities from each geographical region of Türkiye. These intuitive selections will be used at the end of the project, to compare the results of the developed city-level livability index.</p>
+<p>For the development phase, data sets from official sources will be used. I will rank the cities using relevant indicators. Then, the method for “Livability Index for Cities of Türkiye” will be constructed.</p>
+<p>In the last phase, the cities will be ranked according to their livability indeces. I will again determine the top 3 most livable cities for each region using the developed method and compare the results with the intuitive selections from the beginning of the project.</p>
 </section>
 <section id="data" class="level1">
 <h1>2. Data</h1>
-<p>xxxxxx</p>
+<p>This project will use multiple publicly available data sets collected from official sources. The data will be integrated at the city level.</p>
 <section id="data-source" class="level2">
 <h2 class="anchored" data-anchor-id="data-source">2.1 Data Source</h2>
-<p>xxxxxx</p>
+<p>The primary data source of the model consists of city level data sets obtained from the Türkiye İstatistik Kurumu (TÜİK) data portal.</p>
 </section>
 <section id="general-information-about-data" class="level2">
 <h2 class="anchored" data-anchor-id="general-information-about-data">2.2 General Information About Data</h2>
-<p>xxxxxx</p>
+<p>The data sets are publicly available and can be downloaded in MS Excel format from TÜİK data portal. For each selected indicator, data covering the period between 2021 and the most recent year (2025 or 2024) will be downloaded.</p>
 </section>
 <section id="reason-of-choice" class="level2">
 <h2 class="anchored" data-anchor-id="reason-of-choice">2.3 Reason of Choice</h2>
@@ -373,12 +377,34 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="preprocessing" class="level2">
 <h2 class="anchored" data-anchor-id="preprocessing">2.4 Preprocessing</h2>
-<p>xxxxxx</p>
+<p>Following approach will be adopted:</p>
+<ul>
+<li><p>For each city and each indicator, average values will be calculated.</p></li>
+<li><p>This ensures that each city is represented by a single value per indicator, reducing the impact of short-term fluctuations in data.</p></li>
+<li><p>To enable comparability across different indicators with varying units and scales, all variables will be normalized with min-max normalization.</p></li>
+<li><p>After normalization, each indicator will be evaluated for its relevance and contribution to the livability index. The distribution of each indicator will be compared with the national average which is also available in TÜİK Data Platform. Indicators that do not provide meaningful differentiation may be excluded.</p></li>
+<li><p>All selected data sets will be transformed into tidy data format.</p></li>
+<li><p>The indicators will be grouped into categories such as economic conditions, health, education, cultural amentities.</p></li>
+</ul>
 </section>
 </section>
 <section id="analysis" class="level1">
 <h1>3. Analysis</h1>
 <p>xxxxxx</p>
+<section id="intuitive-ranking-by-regions" class="level2">
+<h2 class="anchored" data-anchor-id="intuitive-ranking-by-regions">3.1 Intuitive Ranking by Regions</h2>
+<p>The top three most livable cities for each geographical region are identified intuitively as follows:</p>
+<ul>
+<li><p><strong>Marmara Region:</strong> Edirne, Bursa, Istanbul</p></li>
+<li><p><strong>Aegean Region:</strong> Muğla, Izmir, Aydın</p></li>
+<li><p><strong>Mediterranean Region:</strong> Mersin, Antalya, Adana</p></li>
+<li><p><strong>Black Sea Region:</strong> Samsun, Zonguldak, Kastamonu</p></li>
+<li><p><strong>Central Anatolia:</strong> Ankara, Eskişehir, Nevşehir</p></li>
+<li><p><strong>Eastern Anatolia:</strong> Van, Malatya, Erzurum</p></li>
+<li><p><strong>Southeastern Anatolia:</strong> Gaziantep, Mardin, Diyarbakır</p></li>
+</ul>
+<p>This intuitive ranking will bu used as a benchmark to evaluate how closely the data-driven livability index aligns with my common perceptions.</p>
+</section>
 <section id="exploratory-data-analysis" class="level2">
 <h2 class="anchored" data-anchor-id="exploratory-data-analysis">3.1 Exploratory Data Analysis</h2>
 <p>xxxxxx</p>
@@ -389,7 +415,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="model-fitting" class="level2">
 <h2 class="anchored" data-anchor-id="model-fitting">3.3 Model Fitting</h2>
-<p>xxxxxx</p>
+<p>Each category and each indicator will be assigned a specific weight reflecting its relative importance in determining livability. The weighting strategy will be inspired by <strong><em>The Global Liveability Index 2025</em></strong>, which evaluates global cities based on multiple dimensions such as stability (25%), healthcare (20%), culture &amp; environment (25%), education (10%), and infrastructure (20%). The final livability index will be calculated as a weighted composite score.</p>
 </section>
 <section id="results" class="level2">
 <h2 class="anchored" data-anchor-id="results">3.4 Results</h2>
@@ -399,6 +425,12 @@ ul.task-list li input[type="checkbox"] {
 <section id="results-and-key-takeaways" class="level1">
 <h1>4. Results and Key Takeaways</h1>
 <p>xxxxxx</p>
+<p>Top ten positions</p>
+</section>
+<section id="references" class="level1">
+<h1>5. References</h1>
+<p>Türkiye İstatistik Kurumu (TÜİK). (2026). Turkish Statistical Data Portal. https://data.tuik.gov.tr/</p>
+<p><a href="https://image.b.economist.com/lib/fe8d13727c61047f7c/m/1/d95f9984-df44-41a6-84e7-9e7bc0b3c788.pdf" class="uri">https://image.b.economist.com/lib/fe8d13727c61047f7c/m/1/d95f9984-df44-41a6-84e7-9e7bc0b3c788.pdf</a></p>
 
 
 </section>

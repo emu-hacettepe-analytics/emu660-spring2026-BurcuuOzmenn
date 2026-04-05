@@ -1,28 +1,32 @@
 ---
-title: "Project X"
+title: "Livability Index for Cities of Türkiye"
 ---
 
-Welcome to my/our project page.
+Welcome to my project page.
 
 Keep an eye on this space to stay updated with my project activities.
 
-(The titles below are provided as examples; please feel free to adjust them as necessary.)
-
 # 1. Project Overview and Scope
 
-xxxxxx
+Livability is a multi-dimensional concept that reflects the overall quality of living considering economic, social, infrastructural and environmental factors. This project aims to construct a **city-level livability index for Türkiye** by integrating multiple indicators and rank cities according to their overall livability.
+
+In the first phase, I will intuitively select the top 3 most livable cities from each geographical region of Türkiye. These intuitive selections will be used at the end of the project, to compare the results of the developed city-level livability index.
+
+For the development phase, data sets from official sources will be used. I will rank the cities using relevant indicators. Then, the method for "Livability Index for Cities of Türkiye" will be constructed.
+
+In the last phase, the cities will be ranked according to their livability indeces. I will again determine the top 3 most livable cities for each region using the developed method and compare the results with the intuitive selections from the beginning of the project.
 
 # 2. Data
 
-xxxxxx
+This project will use multiple publicly available data sets collected from official sources. The data will be integrated at the city level.
 
 ## 2.1 Data Source
 
-xxxxxx
+The primary data source of the model consists of city level data sets obtained from the Türkiye İstatistik Kurumu (TÜİK) data portal.
 
 ## 2.2 General Information About Data
 
-xxxxxx
+The data sets are publicly available and can be downloaded in MS Excel format from TÜİK data portal. For each selected indicator, data covering the period between 2021 and the most recent year (2025 or 2024) will be downloaded.
 
 ## 2.3 Reason of Choice
 
@@ -30,11 +34,43 @@ xxxxxx
 
 ## 2.4 Preprocessing
 
-xxxxxx
+Following approach will be adopted:
+
+-   For each city and each indicator, average values will be calculated.
+
+-   This ensures that each city is represented by a single value per indicator, reducing the impact of short-term fluctuations in data.
+
+-   To enable comparability across different indicators with varying units and scales, all variables will be normalized with min-max normalization.
+
+-   After normalization, each indicator will be evaluated for its relevance and contribution to the livability index. The distribution of each indicator will be compared with the national average which is also available in TÜİK Data Platform. Indicators that do not provide meaningful differentiation may be excluded.
+
+-   All selected data sets will be transformed into tidy data format.
+
+-   The indicators will be grouped into categories such as economic conditions, health, education, cultural amentities.
 
 # 3. Analysis
 
 xxxxxx
+
+## 3.1 Intuitive Ranking by Regions 
+
+The top three most livable cities for each geographical region are identified intuitively as follows:
+
+-   **Marmara Region:** Edirne, Bursa, Istanbul
+
+-   **Aegean Region:** Muğla, Izmir, Aydın
+
+-   **Mediterranean Region:** Mersin, Antalya, Adana
+
+-   **Black Sea Region:** Samsun, Zonguldak, Kastamonu
+
+-   **Central Anatolia:** Ankara, Eskişehir, Nevşehir
+
+-   **Eastern Anatolia:** Van, Malatya, Erzurum
+
+-   **Southeastern Anatolia:** Gaziantep, Mardin, Diyarbakır
+
+This intuitive ranking will bu used as a benchmark to evaluate how closely the data-driven livability index aligns with my common perceptions.
 
 ## 3.1 Exploratory Data Analysis
 
@@ -46,7 +82,7 @@ xxxxxx
 
 ## 3.3 Model Fitting
 
-xxxxxx
+Each category and each indicator will be assigned a specific weight reflecting its relative importance in determining livability. The weighting strategy will be inspired by ***The Global Liveability Index 2025***, which evaluates global cities based on multiple dimensions such as stability (25%), healthcare (20%), culture & environment (25%), education (10%), and infrastructure (20%). The final livability index will be calculated as a weighted composite score.
 
 ## 3.4 Results
 
@@ -55,3 +91,11 @@ xxxxxx
 # 4. Results and Key Takeaways
 
 xxxxxx
+
+Top ten positions
+
+# 5. References
+
+Türkiye İstatistik Kurumu (TÜİK). (2026). Turkish Statistical Data Portal. https://data.tuik.gov.tr/
+
+<https://image.b.economist.com/lib/fe8d13727c61047f7c/m/1/d95f9984-df44-41a6-84e7-9e7bc0b3c788.pdf>
