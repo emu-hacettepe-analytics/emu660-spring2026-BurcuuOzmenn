@@ -61,7 +61,7 @@
     "href": "project.html#data-source",
     "title": "Livability Index for Cities of Türkiye",
     "section": "2.1 Data Source",
-    "text": "2.1 Data Source\nThe primary data source of the model consists of city level data sets obtained from the Türkiye İstatistik Kurumu (TÜİK) data portal."
+    "text": "2.1 Data Source\nThe primary data source of the model consists of city level data sets obtained from the Türkiye İstatistik Kurumu (TÜİK) data portal.\n\n#wd oluşturma\nsetwd(\"/home/nurettin/Desktop/burcu/emu660-spring2026-BurcuuOzmenn\")\n\n#MS Excel dosyalarını okumak için readxl\nlibrary(readxl)\n\n#İl ve bağlı olduğu bölge listesi\nil_listesi &lt;- read_excel(\"/home/nurettin/Desktop/burcu/emu660-spring2026-BurcuuOzmenn/assets/il_listesi.xls\")\n#head(il_listesi)  \n\n\nread_file &lt;-function(x) {\n  print(x)\n}\n\nread_file(il_listesi)\n\n# A tibble: 81 × 2\n   İl             Bölge            \n   &lt;chr&gt;          &lt;chr&gt;            \n 1 Adana          Akdeniz          \n 2 Adıyaman       Güneydoğu Anadolu\n 3 Afyonkarahisar Ege              \n 4 Ağrı           Doğu Anadolu     \n 5 Amasya         Karadeniz        \n 6 Ankara         İç Anadolu       \n 7 Antalya        Akdeniz          \n 8 Artvin         Karadeniz        \n 9 Aydın          Ege              \n10 Balıkesir      Marmara          \n# ℹ 71 more rows"
   },
   {
     "objectID": "project.html#general-information-about-data",

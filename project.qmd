@@ -24,6 +24,26 @@ This project will use multiple publicly available data sets collected from offic
 
 The primary data source of the model consists of city level data sets obtained from the Türkiye İstatistik Kurumu (TÜİK) data portal.
 
+```{r}
+
+#wd oluşturma
+setwd("/home/nurettin/Desktop/burcu/emu660-spring2026-BurcuuOzmenn")
+
+#MS Excel dosyalarını okumak için readxl
+library(readxl)
+
+#İl ve bağlı olduğu bölge listesi
+il_listesi <- read_excel("/home/nurettin/Desktop/burcu/emu660-spring2026-BurcuuOzmenn/assets/il_listesi.xls")
+#head(il_listesi)  
+
+
+read_file <-function(x) {
+  print(x)
+}
+
+read_file(il_listesi)
+```
+
 ## 2.2 General Information About Data
 
 The data sets are publicly available and can be downloaded in MS Excel format from TÜİK data portal. For each selected indicator, data covering the period between 2021 and the most recent year (2025 or 2024) will be downloaded.
@@ -52,7 +72,7 @@ Following approach will be adopted:
 
 xxxxxx
 
-## 3.1 Intuitive Ranking by Regions 
+## 3.1 Intuitive Ranking by Regions
 
 The top three most livable cities for each geographical region are identified intuitively as follows:
 

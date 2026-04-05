@@ -25,7 +25,7 @@ toplam_kutuphane <- read_excel("/home/nurettin/Desktop/burcu/emu660-spring2026-B
 toplam_muze <- read_excel("/home/nurettin/Desktop/burcu/emu660-spring2026-BurcuuOzmenn/assets/TUIK/Culture/museum.xls")
 
 #toplam tiyatro sayısı
-toplam_tiyatro <- read_excel("/home/nurettin/Desktop/burcu/emu660-spring2026-BurcuuOzmenn/assets/TUIK/Culture/theatre.xls")
+toplam_tiyatro <- read_excel("/home/nurettin/Desktop/burcu/emu660-spring2026-BurcuuOzmenn/assets/TUIK/Culture/theater.xls")
 
 
 #sağlık data setleri
