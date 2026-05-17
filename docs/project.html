@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Livability Index for Cities of Türkiye – Burcu Ozmen’s Analytics Lab</title>
+<title>Livability Index for Cities of Türkiye – [Student xxxx]’s Analytics Lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,41 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -284,7 +249,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
     </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Burcu Ozmen’s Analytics Lab</span>
+    <span class="navbar-title">[Student xxxx]’s Analytics Lab</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -323,8 +288,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools tools-wide">
-    <a href="https://github.com/BurcuuOzmenn" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
-    <a href="https://linkedin.com/in/burcuozmen" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
+    <a href="https://twitter.com" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+    <a href="https://twitter.com" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-twitter"></i></a>
+    <a href="https://linkedin.com" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
@@ -349,13 +315,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#analysis" id="toc-analysis" class="nav-link" data-scroll-target="#analysis">3. Analysis</a>
   <ul class="collapse">
   <li><a href="#intuitive-ranking-by-regions" id="toc-intuitive-ranking-by-regions" class="nav-link" data-scroll-target="#intuitive-ranking-by-regions">3.1 Intuitive Ranking by Regions</a></li>
-  <li><a href="#exploratory-data-analysis" id="toc-exploratory-data-analysis" class="nav-link" data-scroll-target="#exploratory-data-analysis">3.1 Exploratory Data Analysis</a></li>
-  <li><a href="#trend-analysis" id="toc-trend-analysis" class="nav-link" data-scroll-target="#trend-analysis">3.2 Trend Analysis</a></li>
-  <li><a href="#model-fitting" id="toc-model-fitting" class="nav-link" data-scroll-target="#model-fitting">3.3 Model Fitting</a></li>
-  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">3.4 Results</a></li>
+  <li><a href="#model-fitting" id="toc-model-fitting" class="nav-link" data-scroll-target="#model-fitting">3.2 Model Fitting</a></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">3.3 Results</a></li>
   </ul></li>
-  <li><a href="#results-and-key-takeaways" id="toc-results-and-key-takeaways" class="nav-link" data-scroll-target="#results-and-key-takeaways">4. Results and Key Takeaways</a></li>
+  <li><a href="#results-and-key-takeaways" id="toc-results-and-key-takeaways" class="nav-link" data-scroll-target="#results-and-key-takeaways">4. Results and Key Takeaways</a>
+  <ul class="collapse">
+  <li><a href="#improvement-suggestions-for-future-studies" id="toc-improvement-suggestions-for-future-studies" class="nav-link" data-scroll-target="#improvement-suggestions-for-future-studies">4.1 Improvement Suggestions for Future Studies</a></li>
+  </ul></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">5. References</a></li>
+  <li><a href="#ai-prompt" id="toc-ai-prompt" class="nav-link" data-scroll-target="#ai-prompt">6. AI Prompt</a></li>
   </ul>
 </nav>
 </nav>
@@ -397,72 +365,510 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="data" class="level1">
 <h1>2. Data</h1>
-<p>This project will use multiple publicly available data sets collected from official sources. The data will be integrated at the city level.</p>
+<p>This project will use multiple publicly available data sets collected from official sources. The data will be integrated at the city level. Some geographical region level data will be calculated through the project.</p>
 <section id="data-source" class="level2">
 <h2 class="anchored" data-anchor-id="data-source">2.1 Data Source</h2>
 <p>The primary data source of the model consists of city level data sets obtained from the Türkiye İstatistik Kurumu (TÜİK) data portal.</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#wd oluşturma</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">setwd</span>(<span class="st">"/home/nurettin/Desktop/burcu/emu660-spring2026-BurcuuOzmenn"</span>)</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">#MS Excel dosyalarını okumak için readxl</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co">#İl ve bağlı olduğu bölge listesi</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>il_listesi <span class="ot">&lt;-</span> <span class="fu">read_excel</span>(<span class="st">"/home/nurettin/Desktop/burcu/emu660-spring2026-BurcuuOzmenn/assets/il_listesi.xls"</span>)</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co">#head(il_listesi)  </span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>read_file <span class="ot">&lt;-</span><span class="cf">function</span>(x) {</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>(x)</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="fu">read_file</span>(il_listesi)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 81 × 2
-   İl             Bölge            
-   &lt;chr&gt;          &lt;chr&gt;            
- 1 Adana          Akdeniz          
- 2 Adıyaman       Güneydoğu Anadolu
- 3 Afyonkarahisar Ege              
- 4 Ağrı           Doğu Anadolu     
- 5 Amasya         Karadeniz        
- 6 Ankara         İç Anadolu       
- 7 Antalya        Akdeniz          
- 8 Artvin         Karadeniz        
- 9 Aydın          Ege              
-10 Balıkesir      Marmara          
-# ℹ 71 more rows</code></pre>
-</div>
-</div>
 </section>
 <section id="general-information-about-data" class="level2">
 <h2 class="anchored" data-anchor-id="general-information-about-data">2.2 General Information About Data</h2>
-<p>The data sets are publicly available and can be downloaded in MS Excel format from TÜİK data portal. For each selected indicator, data covering the period between 2021 and the most recent year (2025 or 2024) will be downloaded.</p>
+<p>The data sets are publicly available and can be downloaded in MS Excel format from TÜİK data portal. For each selected indicator, data covering the period between 2021 and the most recent year (2025 or 2024) available will be downloaded.</p>
+<table class="caption-top table">
+<caption>General Information About Data</caption>
+<colgroup>
+<col style="width: 29%">
+<col style="width: 11%">
+<col style="width: 12%">
+<col style="width: 45%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Data Indicator</th>
+<th>Category</th>
+<th>Unit</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Bakanlığa bağlı müze sayısı</td>
+<td>Culture</td>
+<td>Count</td>
+<td><p>Will be divided by population.</p>
+<p>Higher is better.</p></td>
+</tr>
+<tr class="even">
+<td>Halk Kütüphanesi Sayısı</td>
+<td>Culture</td>
+<td>Count</td>
+<td><p>Will be divided by population.</p>
+<p>Higher is better.</p></td>
+</tr>
+<tr class="odd">
+<td>Sinema Salonu Sayısı</td>
+<td>Culture</td>
+<td>Count</td>
+<td><p>Will be divided by population.</p>
+<p>Higher is better.</p></td>
+</tr>
+<tr class="even">
+<td>Tiyatro Salonu Sayısı</td>
+<td>Culture</td>
+<td>Count</td>
+<td><p>Will be divided by population.</p>
+<p>Higher is better.</p></td>
+</tr>
+<tr class="odd">
+<td>Bebek Ölüm Hızı</td>
+<td>Health</td>
+<td>‰</td>
+<td>Lower is better. (Reverse min-max normalization)</td>
+</tr>
+<tr class="even">
+<td>5 Yaş Altı Ölüm Hızı</td>
+<td>Health</td>
+<td>‰</td>
+<td>Lower is better. (Reverse min-max normalization)</td>
+</tr>
+<tr class="odd">
+<td>Hastane Sayısı</td>
+<td>Health</td>
+<td>count</td>
+<td><p>Will be divided by population.</p>
+<p>Higher is better.</p></td>
+</tr>
+<tr class="even">
+<td>100k Kişi Başına Yatak Sayısı</td>
+<td>Health</td>
+<td>Rate</td>
+<td>Higher is better.</td>
+</tr>
+<tr class="odd">
+<td>1000 Kişi Başına Hekim Sayısı</td>
+<td>Health</td>
+<td>Rate</td>
+<td>Higher is better.</td>
+</tr>
+<tr class="even">
+<td>Derslik Başına Öğrenci Sayısı</td>
+<td>Education</td>
+<td>Rate</td>
+<td>Lower is better. (Reverse min-max normalization)</td>
+</tr>
+<tr class="odd">
+<td>Öğretmen Başına Öğrenci Sayısı</td>
+<td>Education</td>
+<td>Rate</td>
+<td>Lower is better. (Reverse min-max normalization)</td>
+</tr>
+<tr class="even">
+<td>GSYH</td>
+<td>Economy</td>
+<td>Thosand TL</td>
+<td>Higher is better.</td>
+</tr>
+<tr class="odd">
+<td>İşgücüne Katılma Oranı</td>
+<td>Economy</td>
+<td>%</td>
+<td>Higher is better.</td>
+</tr>
+<tr class="even">
+<td>İşsizlik Oranı</td>
+<td>Economy</td>
+<td>%</td>
+<td>Lower is better. (Reverse min-max normalization)</td>
+</tr>
+<tr class="odd">
+<td>İstihdam Oranı</td>
+<td>Economy</td>
+<td>%</td>
+<td>Higher is better.</td>
+</tr>
+<tr class="even">
+<td>Toplam Girişim Sayısı</td>
+<td>Economy</td>
+<td>Count</td>
+<td>Higher is better.</td>
+</tr>
+<tr class="odd">
+<td>Toplam İhracat</td>
+<td>Economy</td>
+<td>Thosand USD</td>
+<td>Higher is better.</td>
+</tr>
+</tbody>
+</table>
 </section>
 <section id="reason-of-choice" class="level2">
 <h2 class="anchored" data-anchor-id="reason-of-choice">2.3 Reason of Choice</h2>
-<p>xxxxxx</p>
+<p>The project was chosen because it is suitable to apply the topics that we discussed in this lecture and also other lectures.</p>
 </section>
 <section id="preprocessing" class="level2">
 <h2 class="anchored" data-anchor-id="preprocessing">2.4 Preprocessing</h2>
 <p>Following approach will be adopted:</p>
 <ul>
-<li><p>For each city and each indicator, average values will be calculated.</p></li>
-<li><p>This ensures that each city is represented by a single value per indicator, reducing the impact of short-term fluctuations in data.</p></li>
-<li><p>To enable comparability across different indicators with varying units and scales, all variables will be normalized with min-max normalization.</p></li>
-<li><p>After normalization, each indicator will be evaluated for its relevance and contribution to the livability index. The distribution of each indicator will be compared with the national average which is also available in TÜİK Data Platform. Indicators that do not provide meaningful differentiation may be excluded.</p></li>
 <li><p>All selected data sets will be transformed into tidy data format.</p></li>
-<li><p>The indicators will be grouped into categories such as economic conditions, health, education, cultural amentities.</p></li>
+<li><p>The indicators will be grouped into categories such as economic conditions, health, education, culture.</p></li>
+<li><p>Some data are absolute counts that scale with province size. These data will be divided by the province’s population to ensure that large provinces are not unfairly advantaged/disadvantaged.</p></li>
+<li><p>Rather than selecting a single reference year, average values will be calculated for each city and each indicator. This approach reduces sensitivity to year-specific anomalies and ensures that each city is represented by a single value per indicator, reducing the impact of short-term fluctuations in data.</p></li>
+<li><p>To enable comparability across different indicators with varying units and scales, all variables will be normalized with min-max normalization where 1 is the most livable province.</p></li>
 </ul>
+<p>For preprocess of the data, AI is used. The prompt used is presented in Chapter-6.</p>
+<pre><code>---
+# GEREKLİ PAKETLER (ilk çalıştırmadan önce bir kez kurun):
+# install.packages(c(
+#   "readxl", "dplyr", "tidyr", "stringr", "readr",
+#   "ggplot2", "scales", "forcats", "ggrepel",
+#   "RColorBrewer", "fmsb", "corrplot", "patchwork",
+#   "gridExtra", "GGally"
+# ))
+
+# ============================================================
+# AŞAMA 1: Veri Okuma, Temizleme ve Düzenleme
+# ============================================================
+#
+# Bu script şunları yapar:
+#   1. Ham Excel dosyalarını okur
+#   2. Geniş (wide) formattan uzun (long) tidy formata dönüştürür
+#   3. En son yılın verisini seçer (2024)
+#   4. Nüfusa bölünmesi gereken değişkenleri normalleştirir
+#   5. Temizlenmiş veriyi birleştirerek tek bir ana tablo oluşturur
+#   6. Temiz veriyi CSV olarak kaydeder
+
+# ============================================================
+
+# ---- 0. GEREKLİ PAKETLERİ YÜKLE ----
+# Eğer bu paketler kurulu değilse, önce şunu çalıştırın:
+# install.packages(c("readxl", "dplyr", "tidyr", "stringr"))
+
+library(readxl)   # Excel dosyalarını okumak için
+library(dplyr)    # Veri manipülasyonu için (filter, mutate, select, vb.)
+library(tidyr)    # Veriyi tidy formata dönüştürmek için (pivot_longer)
+library(stringr)  # Metin işlemleri için (str_trim)
+
+# ---- 1. KLASÖR YOLLARINI TANIMLA ----
+
+veri_klasoru &lt;- "data/raw"
+
+cikti_klasoru &lt;- "output"
+
+# ---- 2. YARDIMCI FONKSİYON: Ham Excel'i Tidy Formata Dönüştür ----
+#
+# Tüm Excel dosyaları aynı yapıya sahip:
+#   - Satır 1 (index 1): Değişken adı (örn. "GSYH (bin TL)")
+#   - Satır 4 (index 4): İl isimleri (sütun başlıkları)
+#   - Satır 5-8 (index 5-8): Yıllara göre veriler (2021, 2022, 2023, 2024)
+#
+# Bu fonksiyon bu yapıyı okuyup temiz bir data.frame döndürür.
+
+excel_oku_temizle &lt;- function(dosya_yolu, degisken_adi) {
+  
+  # Excel'i başlıksız oku (header=FALSE), tüm satırları görmek için
+  ham_veri &lt;- read_excel(dosya_yolu, col_names = FALSE)
+  
+  # İl isimlerinin bulunduğu satırı bul (Türkiye'yi içeren satır)
+  # Bu genellikle 4. satır (R'da index 4)
+  il_satiri &lt;- which(apply(ham_veri, 1, function(x) any(x == "Türkiye", na.rm = TRUE)))
+
+  # İl isimlerini al (Türkiye dahil - onu sonra çıkaracağız)
+  il_isimleri &lt;- as.character(ham_veri[il_satiri, ])
+  
+  # Yıl sütununu bul (yıl değerlerinin olduğu sütun - genellikle 3. sütun, index 3)
+  # Veri satırları il satırından sonra başlar
+  veri_baslangic &lt;- il_satiri + 1
+  veri_bitis &lt;- nrow(ham_veri)
+  
+  # Yıl sütununu bul: NA olmayan sayısal değer içeren sütun
+  yil_sutunu &lt;- NA
+  for (s in 1:ncol(ham_veri)) {
+    degerler &lt;- ham_veri[veri_baslangic:veri_bitis, s]
+    sayisal &lt;- suppressWarnings(as.numeric(unlist(degerler)))
+    if (any(!is.na(sayisal) &amp; sayisal &gt; 2000 &amp; sayisal &lt; 2030)) {
+      yil_sutunu &lt;- s
+      break
+    }
+  }
+  
+  # Veri satırlarını al
+  veri_satirlari &lt;- ham_veri[veri_baslangic:veri_bitis, ]
+  
+  # Yılları çıkar
+  if (!is.na(yil_sutunu)) {
+    yillar &lt;- as.numeric(unlist(veri_satirlari[, yil_sutunu]))
+  } else {
+    # Yıl sütunu yoksa 2021'den başlayarak sıralı yıllar ata
+    yillar &lt;- seq(2021, length.out = nrow(veri_satirlari))
+    cat("  NOT: Yıl sütunu otomatik atandı.\n")
+  }
+  
+  # Sayısal veri sütunlarını belirle
+  # İl isimleri satırında değer olan sütunları bul
+  veri_sutunlari &lt;- which(!is.na(il_isimleri) &amp; il_isimleri != "NA")
+  
+  # Türkiye'yi çıkar (sadece il verileri istiyoruz)
+  turkiye_sutunu &lt;- which(il_isimleri == "Türkiye")
+  veri_sutunlari &lt;- veri_sutunlari[veri_sutunlari != turkiye_sutunu]
+  
+  # Sonuç tablosunu oluştur
+  sonuc_listesi &lt;- list()
+  
+  for (i in seq_along(yillar)) {
+    yil &lt;- yillar[i]
+    if (is.na(yil)) next
+    
+    satir &lt;- veri_satirlari[i, ]
+    
+    for (s in veri_sutunlari) {
+      il_adi &lt;- str_trim(as.character(il_isimleri[s]))
+      deger_ham &lt;- as.character(satir[[s]])
+      
+      # Sayısal değere dönüştür (nokta binlik ayırıcı olabilir)
+      deger_ham &lt;- gsub("\\.", "", deger_ham)   # Noktaları kaldır (1.000 -&gt; 1000)
+      deger_ham &lt;- gsub(",", ".", deger_ham)    # Virgülü noktaya çevir (1,5 -&gt; 1.5)
+      deger &lt;- suppressWarnings(as.numeric(deger_ham))
+      
+      sonuc_listesi[[length(sonuc_listesi) + 1]] &lt;- data.frame(
+        il = il_adi,
+        yil = yil,
+        degisken = degisken_adi,
+        deger = deger,
+        stringsAsFactors = FALSE
+      )
+    }
+  }
+  
+  # Listeyi tek bir data.frame'e birleştir
+  if (length(sonuc_listesi) == 0) return(NULL)
+  
+  sonuc &lt;- bind_rows(sonuc_listesi)
+  
+  return(sonuc)
+}
+
+# ---- 3. TÜM EXCEL DOSYALARINI OKU ----
+
+# Sağlık kategorisi değişkenleri
+bebek_olum &lt;- excel_oku_temizle(
+  file.path(veri_klasoru, "bebek_olum_hizi.xlsx"),
+  "bebek_olum_hizi"
+)
+
+cocuk_olum &lt;- excel_oku_temizle(
+  file.path(veri_klasoru, "cocuk_olum_hizi.xlsx"),
+  "cocuk_olum_hizi"
+)
+
+hastane_sayi &lt;- excel_oku_temizle(
+  file.path(veri_klasoru, "hastane_sayisi.xlsx"),
+  "hastane_sayisi"
+)
+
+hastane_yatak &lt;- excel_oku_temizle(
+  file.path(veri_klasoru, "hastane_yatak_sayisi.xlsx"),
+  "hastane_yatak_sayisi"
+)
+
+hekim_sayi &lt;- excel_oku_temizle(
+  file.path(veri_klasoru, "toplam_hekim_sayisi.xlsx"),
+  "toplam_hekim_sayisi"
+)
+
+# Eğitim kategorisi değişkenleri
+derslik_ogrenci &lt;- excel_oku_temizle(
+  file.path(veri_klasoru, "derslik_basina_ogrenci.xlsx"),
+  "derslik_basina_ogrenci"
+)
+
+ogretmen_ogrenci &lt;- excel_oku_temizle(
+  file.path(veri_klasoru, "ogretmen_basina_ogrenci.xlsx"),
+  "ogretmen_basina_ogrenci"
+)
+
+# Kültür kategorisi değişkenleri
+muze_sayi &lt;- excel_oku_temizle(
+  file.path(veri_klasoru, "bakanliga_bagli_muze_sayisi.xlsx"),
+  "muze_sayisi"
+)
+
+kutuphane_sayi &lt;- excel_oku_temizle(
+  file.path(veri_klasoru, "halk_kutuphanesi_sayisi.xlsx"),
+  "kutuphane_sayisi"
+)
+
+sinema_sayi &lt;- excel_oku_temizle(
+  file.path(veri_klasoru, "sinema_sayisi.xlsx"),
+  "sinema_sayisi"
+)
+
+tiyatro_sayi &lt;- excel_oku_temizle(
+  file.path(veri_klasoru, "tiyatro_sayisi.xlsx"),
+  "tiyatro_sayisi"
+)
+
+# Ekonomi kategorisi değişkenleri
+gsyh &lt;- excel_oku_temizle(
+  file.path(veri_klasoru, "GSYH.xlsx"),
+  "GSYH"
+)
+
+isgucune_katilma &lt;- excel_oku_temizle(
+  file.path(veri_klasoru, "isgucune_katilma.xlsx"),
+  "isgucune_katilma_orani"
+)
+
+issizlik &lt;- excel_oku_temizle(
+  file.path(veri_klasoru, "issizlik_orani.xlsx"),
+  "issizlik_orani"
+)
+
+istihdam &lt;- excel_oku_temizle(
+  file.path(veri_klasoru, "istihdam_orani.xlsx"),
+  "istihdam_orani"
+)
+
+girisim_sayi &lt;- excel_oku_temizle(
+  file.path(veri_klasoru, "toplam_girisim_sayisi.xlsx"),
+  "girisim_sayisi"
+)
+
+ihracat &lt;- excel_oku_temizle(
+  file.path(veri_klasoru, "toplam_ihracat.xlsx"),
+  "ihracat"
+)
+
+# Nüfus verisi (normalizasyon için)
+nufus &lt;- excel_oku_temizle(
+  file.path("data", "toplam_nufus.xlsx"),
+  "nufus"
+)
+
+# ---- 4. TÜM VERİLERİ BİRLEŞTİR ----
+
+# Tüm data.frame'leri bir listeye koy
+tum_veriler &lt;- list(
+  bebek_olum, cocuk_olum, hastane_sayi, hastane_yatak, hekim_sayi,
+  derslik_ogrenci, ogretmen_ogrenci,
+  muze_sayi, kutuphane_sayi, sinema_sayi, tiyatro_sayi,
+  gsyh, isgucune_katilma, issizlik, istihdam, girisim_sayi, ihracat,
+  nufus
+)
+
+# NULL olanları filtrele ve hepsini birleştir
+tum_veriler &lt;- tum_veriler[!sapply(tum_veriler, is.null)]
+birlesik_veri &lt;- bind_rows(tum_veriler)
+
+# ---- 5. TÜM YILLARIN ORTALAMASINI AL ----
+
+son_yil_veri &lt;- birlesik_veri %&gt;%
+  group_by(degisken, il) %&gt;%
+  summarise(deger = mean(deger, na.rm = TRUE), .groups = "drop")
+
+# ---- 6. NÜFUSA GÖRE NORMALİZASYON ----
+#
+# Nüfusa bölünecek değişkenler:
+#   - muze_sayisi        (kültür)
+#   - GSYH               (ekonomi) 
+#   - kutuphane_sayisi   (kültür)
+#   - hastane_sayisi     (sağlık)
+#   - sinema_sayisi      (kültür)
+#   - tiyatro_sayisi     (kültür)
+#   - girisim_sayisi     (ekonomi)
+#   - ihracat            (ekonomi)
+
+# Nüfus verisini ayır (son yılı kullan)
+nufus_veri &lt;- son_yil_veri %&gt;%
+  filter(degisken == "nufus") %&gt;%
+  select(il, nufus = deger)
+
+# Nüfusa bölünmesi gereken değişkenlerin listesi
+nufusa_bolunecekler &lt;- c(
+  "muze_sayisi",
+  "GSYH",
+  "kutuphane_sayisi",
+  "hastane_sayisi",
+  "sinema_sayisi",
+  "tiyatro_sayisi",
+  "girisim_sayisi",
+  "ihracat"
+)
+
+# Nüfus normalizasyonunu uygula
+son_yil_normalize &lt;- son_yil_veri %&gt;%
+  filter(degisken != "nufus") %&gt;%  # Nüfusu ana tablodan çıkar
+  left_join(nufus_veri, by = "il") %&gt;%  # Nüfus sütununu ekle
+  mutate(
+    # Eğer değişken nüfusa bölünecekler listesindeyse böl, değilse orijinal değeri kullan
+    deger_normalize = if_else(
+      degisken %in% nufusa_bolunecekler,
+      deger / nufus,  # Kişi başına değer
+      deger           # Orijinal değer (oran, hız, vb.)
+    )
+  )
+
+# ---- 7. GENİŞ (WIDE) FORMATA DÖN ----
+#
+# Şu an "uzun" (long) format var: her satır bir il-değişken çifti
+# Analiz için "geniş" (wide) format daha uygun: her satır bir il,
+# her sütun bir değişken
+
+# pivot_wider: uzun → geniş format
+veri_genis &lt;- son_yil_normalize %&gt;%
+  select(il, degisken, deger_normalize) %&gt;%
+  pivot_wider(
+    names_from = degisken,    # Değişken adları sütun başlığı olur
+    values_from = deger_normalize  # Değerler hücrelere yerleşir
+  )
+
+# ---- 8. BÖLGE BİLGİSİNİ EKLE ----
+
+# İl-bölge eşleştirme tablosunu oku
+bolge_veri &lt;- read_excel(
+  file.path("data", "turkiye_iller_bolgeler.xlsx")
+)
+
+# Sütun adlarını temizle
+colnames(bolge_veri) &lt;- c("il_no", "il", "bolge")
+
+# İl adlarını temizle (boşlukları kaldır)
+bolge_veri &lt;- bolge_veri %&gt;%
+  mutate(il = str_trim(il)) %&gt;%
+  select(il, bolge)
+
+# Ana tabloya bölge bilgisini ekle
+veri_tam &lt;- veri_genis %&gt;%
+  left_join(bolge_veri, by = "il")
+
+# Bölgeyi tablonun başına taşı (okunması kolay olsun)
+veri_tam &lt;- veri_tam %&gt;%
+  select(il, bolge, everything())
+
+# Temel istatistikler
+
+# ---- 10. TEMİZ VERİYİ KAYDET ----
+
+# Ana temiz veriyi kaydet
+write.csv(
+  veri_tam,
+  file = file.path(cikti_klasoru, "veri_temiz.csv"),
+  row.names = FALSE,
+  fileEncoding = "UTF-8"
+)
+
+# Uzun format versiyonunu da kaydet (farklı analizler için işe yarayabilir)
+write.csv(
+  son_yil_normalize,
+  file = file.path(cikti_klasoru, "veri_uzun_format.csv"),
+  row.names = FALSE,
+  fileEncoding = "UTF-8"
+---</code></pre>
 </section>
 </section>
 <section id="analysis" class="level1">
 <h1>3. Analysis</h1>
-<p>xxxxxx</p>
 <section id="intuitive-ranking-by-regions" class="level2">
 <h2 class="anchored" data-anchor-id="intuitive-ranking-by-regions">3.1 Intuitive Ranking by Regions</h2>
-<p>The top three most livable cities for each geographical region are identified intuitively as follows:</p>
+<p>The top three most livable cities for each geographical region are identified intuitively by me as follows:</p>
 <ul>
 <li><p><strong>Marmara Region:</strong> Edirne, Bursa, Istanbul</p></li>
 <li><p><strong>Aegean Region:</strong> Muğla, Izmir, Aydın</p></li>
@@ -474,32 +880,107 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
 <p>This intuitive ranking will bu used as a benchmark to evaluate how closely the data-driven livability index aligns with my common perceptions.</p>
 </section>
-<section id="exploratory-data-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="exploratory-data-analysis">3.1 Exploratory Data Analysis</h2>
-<p>xxxxxx</p>
-</section>
-<section id="trend-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="trend-analysis">3.2 Trend Analysis</h2>
-<p>xxxxxx</p>
-</section>
 <section id="model-fitting" class="level2">
-<h2 class="anchored" data-anchor-id="model-fitting">3.3 Model Fitting</h2>
-<p>Each category and each indicator will be assigned a specific weight reflecting its relative importance in determining livability. The weighting strategy will be inspired by <strong><em>The Global Liveability Index 2025</em></strong>, which evaluates global cities based on multiple dimensions such as stability (25%), healthcare (20%), culture &amp; environment (25%), education (10%), and infrastructure (20%). The final livability index will be calculated as a weighted composite score.</p>
+<h2 class="anchored" data-anchor-id="model-fitting">3.2 Model Fitting</h2>
+<p>Each category and each indicator will be assigned equal weight. The final livability index will be calculated as a weighted composite score with equal weights.</p>
 </section>
 <section id="results" class="level2">
-<h2 class="anchored" data-anchor-id="results">3.4 Results</h2>
-<p>xxxxxx</p>
+<h2 class="anchored" data-anchor-id="results">3.3 Results</h2>
+<p>When livability index is calculated with equal weights 10 most livable cities and 10 least livable cities of Türkiye are as follows. Since we apply min-max normalization the most livable city has livability index of 1 and the least livable city has livability index of 0.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="livability_index/livability_index_proje/livability_index/output/01_en_iyi_en_kotu_10_il.png" class="img-fluid figure-img"></p>
+<figcaption>01_en_iyi_en_kotu_10_il</figcaption>
+</figure>
+</div>
+<p>The heat map for the most livable cities is shown below. Edirne has higher scores for each category. Nevşehir has highest culture score but lowest health score among first 10 cities. Ardahan has highest education score but lowest culture score among first 10 cities. Culture scores of the first 10 cities have higher variation.</p>
+<p><img src="livability_index/livability_index_proje/livability_index/output/02_isi_haritasi_top10.png" class="img-fluid"></p>
+<p>The box plot for livability of geographical regions is depicted below. The Black Sea region has the highest median of livability scores, while Southeastern Anatolia has the lowest. Mediterranean and Eastern Anatolia regions show wider distribution compared to the other regions, indicating greater variability among provinces within these areas. This broad spread suggests that some cities in these regions perform significantly better or worse than others in terms of livability. Marmara and Aegean regions display more compact distributions.</p>
+<p><img src="livability_index/livability_index_proje/livability_index/output/03_kutu_yasanabilirlik.png" class="img-fluid"></p>
+<p>The box plot for health scores of geographical regions is depicted below. Same as livability index,&nbsp;Black Sea region has the highest median of health scores, while Southeastern Anatolia has the lowest. Mediterranean, Eastern Anatolia and Central Anatolia regions show wider distribution compared to the other regions, indicating greater variability among provinces within these areas. This broad spread suggests that some cities in these regions perform significantly better or worse than others in terms of livability. Aegean region displays more compact distributions.</p>
+<p><img src="livability_index/livability_index_proje/livability_index/output/04_kutu_saglik.png" class="img-fluid"></p>
+<p>The box plot for education scores of geographical regions is depicted below. Same as livability index,&nbsp;Black Sea region has the highest median of education scores, while Southeastern Anatolia has the lowest.</p>
+<p><img src="livability_index/livability_index_proje/livability_index/output/05_kutu_egitim.png" class="img-fluid"></p>
+<p>The box plot for culture scores of geographical regions is depicted below. Same as livability index,&nbsp;Black Sea region has the highest median of culture scores, while Southeastern Anatolia has the lowest. Aegean and Marmara regions display more compact distributions compared to other geographical regions.</p>
+<p><img src="livability_index/livability_index_proje/livability_index/output/06_kutu_kultur.png" class="img-fluid"></p>
+<p>The box plot for economy scores of geographical regions is depicted below. Different from other categories, Marmara region has the highest median of economy scores. Southeastern Anatolia has the lowest median for economy score.</p>
+<p><img src="livability_index/livability_index_proje/livability_index/output/07_kutu_ekonomi.png" class="img-fluid"></p>
+<p>Below bar chart shows the average livability index scores with average category scores for each geographical region. Southeastern Anatolia region has lower scores than the other regions in every category. The average scores in the culture category are low across all geographical regions. The average scores in the education category are higher across all geographical regions.</p>
+<p><img src="livability_index/livability_index_proje/livability_index/output/08_bolge_kategori_bar.png" class="img-fluid"></p>
+<p>Livability indexes for all cities in Türkiye are shown below. According to this project, Edirne is the most livable city of Türkiye.</p>
+<p><img src="livability_index/livability_index_proje/livability_index/output/09_tum_iller_bar.png" class="img-fluid"></p>
+<p>The first 3 most livable cities in each region and the comparison with my predictions are depicted below.</p>
+<p><img src="livability_index/livability_index_proje/livability_index/output/11_bolge_top3_bar.png" class="img-fluid"></p>
+<p><img src="livability_index/livability_index_proje/livability_index/output/12_tahmin_vs_gercek_tablo.png" class="img-fluid"></p>
 </section>
 </section>
 <section id="results-and-key-takeaways" class="level1">
 <h1>4. Results and Key Takeaways</h1>
-<p>xxxxxx</p>
-<p>Top ten positions</p>
+<p>The most livable city of Türkiye is Edirne from Marmara Region</p>
+<section id="improvement-suggestions-for-future-studies" class="level2">
+<h2 class="anchored" data-anchor-id="improvement-suggestions-for-future-studies">4.1 Improvement Suggestions for Future Studies</h2>
+<p>As an improvement suggestion for this project, additional categories and indicators shall be added.</p>
+<p>As an improvement suggestion for this project; a specific weight reflecting its relative importance in determining livability can be calculated. For example, the weighting used by <strong><em>The Global Liveability Index 2025</em></strong>, which evaluates global cities based on multiple dimensions are:</p>
+<ul>
+<li><p>Stability: 25%</p></li>
+<li><p>Healthcare: 20%</p></li>
+<li><p>Culture &amp; Environment: 25%</p></li>
+<li><p>Education: 10%</p></li>
+<li><p>Infrastructure: 20%</p></li>
+</ul>
+</section>
 </section>
 <section id="references" class="level1">
 <h1>5. References</h1>
 <p>Türkiye İstatistik Kurumu (TÜİK). (2026). Turkish Statistical Data Portal. https://data.tuik.gov.tr/</p>
-<p><a href="https://image.b.economist.com/lib/fe8d13727c61047f7c/m/1/d95f9984-df44-41a6-84e7-9e7bc0b3c788.pdf" class="uri">https://image.b.economist.com/lib/fe8d13727c61047f7c/m/1/d95f9984-df44-41a6-84e7-9e7bc0b3c788.pdf</a></p>
+<p>The Global Liveability Index. (2025). <a href="https://image.b.economist.com/lib/fe8d13727c61047f7c/m/1/d95f9984-df44-41a6-84e7-9e7bc0b3c788.pdf" class="uri">https://image.b.economist.com/lib/fe8d13727c61047f7c/m/1/d95f9984-df44-41a6-84e7-9e7bc0b3c788.pdf</a></p>
+<p>Claude (Anthropic). (2025). AI-assisted R code generation and methodology design for composite index construction [AI system].</p>
+<p>https://claude.ai</p>
+</section>
+<section id="ai-prompt" class="level1">
+<h1>6. AI Prompt</h1>
+<p><strong>For preprocess of the data, Claude is used. The prompt used is below:</strong></p>
+<p><em>I am a master’s student in Industrial Engineering. I will develop a project in R using RStudio. I currently have beginner-level knowledge of R, so the code we create should be written in a beginner-friendly way with clear explanations and detailed comments, so that I can understand, analyze, and maintain the code myself. The project topic is to create a Livability Index for the provinces of Türkiye and determine the livability levels of both the geographical regions and the provinces. First, we will examine the 17 Excel files I provide and transform them into tidy format. Then, using these datasets, we will calculate the livability index.</em></p>
+<p><em>The variables affected by population should be divided by the total population of each province. The variables that must be population-adjusted are: Number of ministry-affiliated museums, GSYS, Number of public libraries, Number of hospitals, Number of cinemas, Number of theaters, Total number of enterprises, and Total exports.</em></p>
+<p><em>I will complete this project on my Linux computer. The folder structure for the project will be as follows: The main project folder will be called: <code>livability_index</code></em></p>
+<p><em>Inside the <code>data</code> folder:</em></p>
+<ul>
+<li><p><em><code>raw/</code> will contain 17 Excel data files</em></p></li>
+<li><p><em><code>toplam_nufus.xlsx</code> will contain the population data for each province and will be used for population-adjusted variables</em></p></li>
+<li><p><em><code>turkiye_iller_bolgeler.xlsx</code> will show which province belongs to which geographical region</em></p></li>
+</ul>
+<p><em>Inside the <code>livability_index</code> folder, there will also be an <code>output/</code> folder where all outputs, tables, graphs, and results will be saved.</em></p>
+<p><em>While developing the project:</em></p>
+<ul>
+<li><p><em>Use beginner-friendly R syntax.</em></p></li>
+<li><p><em>Explain each step clearly.</em></p></li>
+<li><p><em>Add detailed comments to the code.</em></p></li>
+<li><p><em>Prefer understandable solutions over overly advanced or complex methods.</em></p></li>
+<li><p><em>Suggest improvements or better approaches when appropriate, but explain them simply.</em></p></li>
+</ul>
+<p><strong>To ensure the standardization of visuals, Claude is used. The prompt used is below:</strong></p>
+<p><em>For visualization, all visualizations should be visually consistent with one another. Therefore, always use the following color scheme:</em></p>
+<ul>
+<li><p><em>Livability Index: orange</em></p></li>
+<li><p><em>Health: red</em></p></li>
+<li><p><em>Education: blue</em></p></li>
+<li><p><em>Culture: purple</em></p></li>
+<li><p><em>Economy: green</em></p></li>
+</ul>
+<p><em>For region-based charts, assign a unique color to each geographical region and consistently use the same color for that region across all visualizations.</em></p>
+<p><em>All charts should be created in the same format and saved into the output folder defined at the beginning of the project.</em></p>
+<ol type="1">
+<li><p><em>The twelfth chart should compare the top 3 most livable provinces calculated for each geographical region with the provinces I predicted at the beginning of the project. My predictions were:</em></p>
+<ul>
+<li><p><em><strong>Marmara Region:</strong> Edirne, Bursa, Istanbul</em></p></li>
+<li><p><em><strong>Aegean Region:</strong> Muğla, Izmir, Aydın</em></p></li>
+<li><p><em><strong>Mediterranean Region:</strong> Mersin, Antalya, Adana</em></p></li>
+<li><p><em><strong>Black Sea Region:</strong> Samsun, Zonguldak, Kastamonu</em></p></li>
+<li><p><em><strong>Central Anatolia:</strong> Ankara, Eskişehir, Nevşehir</em></p></li>
+<li><p><em><strong>Eastern Anatolia:</strong> Van, Malatya, Erzurum</em></p></li>
+<li><p><em><strong>Southeastern Anatolia:</strong> Gaziantep, Mardin, Diyarbakır</em></p></li>
+</ul></li>
+</ol>
 
 
 </section>
