@@ -1,0 +1,69 @@
+"siralama","il","bolge","skor","kategori","en_iyi_10"
+1,"Edirne","Marmara",1,"Sağlık",TRUE
+7,"Bolu","Karadeniz",0.9755,"Sağlık",TRUE
+3,"Isparta","Akdeniz",0.9221,"Sağlık",TRUE
+14,"Ankara","İç Anadolu",0.899,"Sağlık",TRUE
+23,"Eskişehir","İç Anadolu",0.8688,"Sağlık",TRUE
+15,"Giresun","Karadeniz",0.8653,"Sağlık",TRUE
+2,"Kastamonu","Karadeniz",0.8582,"Sağlık",TRUE
+20,"Trabzon","Karadeniz",0.8497,"Sağlık",TRUE
+11,"Artvin","Karadeniz",0.8216,"Sağlık",TRUE
+47,"Kırıkkale","İç Anadolu",0.8168,"Sağlık",TRUE
+NA,"[Akdeniz bölge ort.]","Akdeniz",0.5317,"Sağlık",FALSE
+NA,"[Doğu Anadolu bölge ort.]","Doğu Anadolu",0.4922,"Sağlık",FALSE
+NA,"[Ege bölge ort.]","Ege",0.6646,"Sağlık",FALSE
+NA,"[Güneydoğu Anadolu bölge ort.]","Güneydoğu Anadolu",0.2425,"Sağlık",FALSE
+NA,"[Karadeniz bölge ort.]","Karadeniz",0.7209,"Sağlık",FALSE
+NA,"[Marmara bölge ort.]","Marmara",0.7037,"Sağlık",FALSE
+NA,"[İç Anadolu bölge ort.]","İç Anadolu",0.6412,"Sağlık",FALSE
+10,"Ardahan","Doğu Anadolu",1,"Eğitim",TRUE
+21,"Gümüşhane","Karadeniz",0.9734,"Eğitim",TRUE
+51,"Kars","Doğu Anadolu",0.9393,"Eğitim",TRUE
+12,"Bayburt","Karadeniz",0.9355,"Eğitim",TRUE
+8,"Tunceli","Doğu Anadolu",0.9318,"Eğitim",TRUE
+27,"Yozgat","İç Anadolu",0.9188,"Eğitim",TRUE
+48,"Bartın","Karadeniz",0.9126,"Eğitim",TRUE
+36,"Amasya","Karadeniz",0.9082,"Eğitim",TRUE
+1,"Edirne","Marmara",0.8877,"Eğitim",TRUE
+28,"Zonguldak","Karadeniz",0.8871,"Eğitim",TRUE
+NA,"[Akdeniz bölge ort.]","Akdeniz",0.5874,"Eğitim",FALSE
+NA,"[Doğu Anadolu bölge ort.]","Doğu Anadolu",0.7622,"Eğitim",FALSE
+NA,"[Ege bölge ort.]","Ege",0.7504,"Eğitim",FALSE
+NA,"[Güneydoğu Anadolu bölge ort.]","Güneydoğu Anadolu",0.362,"Eğitim",FALSE
+NA,"[Karadeniz bölge ort.]","Karadeniz",0.8314,"Eğitim",FALSE
+NA,"[Marmara bölge ort.]","Marmara",0.5884,"Eğitim",FALSE
+NA,"[İç Anadolu bölge ort.]","İç Anadolu",0.7481,"Eğitim",FALSE
+4,"Nevşehir","İç Anadolu",1,"Kültür",TRUE
+6,"Sinop","Karadeniz",0.8644,"Kültür",TRUE
+1,"Edirne","Marmara",0.712,"Kültür",TRUE
+2,"Kastamonu","Karadeniz",0.7092,"Kültür",TRUE
+8,"Tunceli","Doğu Anadolu",0.6962,"Kültür",TRUE
+5,"Rize","Karadeniz",0.6808,"Kültür",TRUE
+3,"Isparta","Akdeniz",0.6599,"Kültür",TRUE
+12,"Bayburt","Karadeniz",0.638,"Kültür",TRUE
+9,"Burdur","Akdeniz",0.5889,"Kültür",TRUE
+30,"Karabük","Karadeniz",0.5458,"Kültür",TRUE
+NA,"[Akdeniz bölge ort.]","Akdeniz",0.3033,"Kültür",FALSE
+NA,"[Doğu Anadolu bölge ort.]","Doğu Anadolu",0.2985,"Kültür",FALSE
+NA,"[Ege bölge ort.]","Ege",0.3387,"Kültür",FALSE
+NA,"[Güneydoğu Anadolu bölge ort.]","Güneydoğu Anadolu",0.184,"Kültür",FALSE
+NA,"[Karadeniz bölge ort.]","Karadeniz",0.4551,"Kültür",FALSE
+NA,"[Marmara bölge ort.]","Marmara",0.3616,"Kültür",FALSE
+NA,"[İç Anadolu bölge ort.]","İç Anadolu",0.3958,"Kültür",FALSE
+39,"İstanbul","Marmara",1,"Ekonomi",TRUE
+45,"Kocaeli","Marmara",0.907,"Ekonomi",TRUE
+26,"Antalya","Akdeniz",0.7902,"Ekonomi",TRUE
+55,"Tekirdağ","Marmara",0.7749,"Ekonomi",TRUE
+43,"Sakarya","Marmara",0.7716,"Ekonomi",TRUE
+19,"Denizli","Ege",0.7629,"Ekonomi",TRUE
+13,"Muğla","Ege",0.7389,"Ekonomi",TRUE
+56,"Bursa","Marmara",0.7189,"Ekonomi",TRUE
+14,"Ankara","İç Anadolu",0.7123,"Ekonomi",TRUE
+49,"Manisa","Ege",0.6924,"Ekonomi",TRUE
+NA,"[Akdeniz bölge ort.]","Akdeniz",0.4943,"Ekonomi",FALSE
+NA,"[Doğu Anadolu bölge ort.]","Doğu Anadolu",0.3106,"Ekonomi",FALSE
+NA,"[Ege bölge ort.]","Ege",0.6293,"Ekonomi",FALSE
+NA,"[Güneydoğu Anadolu bölge ort.]","Güneydoğu Anadolu",0.2209,"Ekonomi",FALSE
+NA,"[Karadeniz bölge ort.]","Karadeniz",0.5282,"Ekonomi",FALSE
+NA,"[Marmara bölge ort.]","Marmara",0.7141,"Ekonomi",FALSE
+NA,"[İç Anadolu bölge ort.]","İç Anadolu",0.5002,"Ekonomi",FALSE

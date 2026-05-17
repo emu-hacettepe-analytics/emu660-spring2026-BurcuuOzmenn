@@ -1,0 +1,22 @@
+"bolge","bolge_sirasi","il","yasanabilirlik_endeksi","saglik_skoru","egitim_skoru","kultur_skoru","ekonomi_skoru"
+"Akdeniz",1,"Isparta",0.929,0.922,0.881,0.66,0.559
+"Akdeniz",2,"Burdur",0.846,0.662,0.867,0.589,0.657
+"Akdeniz",3,"Antalya",0.734,0.716,0.585,0.348,0.79
+"Doğu Anadolu",1,"Tunceli",0.857,0.739,0.932,0.696,0.441
+"Doğu Anadolu",2,"Ardahan",0.841,0.694,1,0.407,0.659
+"Doğu Anadolu",3,"Erzurum",0.74,0.776,0.799,0.479,0.403
+"Ege",1,"Muğla",0.811,0.635,0.783,0.511,0.739
+"Ege",2,"Denizli",0.754,0.687,0.727,0.322,0.763
+"Ege",3,"Kütahya",0.735,0.726,0.861,0.342,0.513
+"Güneydoğu Anadolu",1,"Kilis",0.414,0.357,0.317,0.387,0.422
+"Güneydoğu Anadolu",2,"Adıyaman",0.325,0.156,0.643,0.148,0.271
+"Güneydoğu Anadolu",3,"Batman",0.32,0.379,0.439,0.271,0.115
+"Karadeniz",1,"Kastamonu",0.935,0.858,0.815,0.709,0.658
+"Karadeniz",2,"Rize",0.886,0.77,0.866,0.681,0.578
+"Karadeniz",3,"Sinop",0.879,0.712,0.815,0.864,0.484
+"Marmara",1,"Edirne",1,1,0.888,0.712,0.635
+"Marmara",2,"Kırklareli",0.765,0.732,0.778,0.397,0.624
+"Marmara",3,"Çanakkale",0.758,0.805,0.726,0.342,0.639
+"İç Anadolu",1,"Nevşehir",0.888,0.455,0.878,1,0.568
+"İç Anadolu",2,"Ankara",0.781,0.899,0.623,0.346,0.712
+"İç Anadolu",3,"Karaman",0.755,0.623,0.852,0.437,0.591

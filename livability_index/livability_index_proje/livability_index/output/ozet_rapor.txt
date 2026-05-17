@@ -1,0 +1,58 @@
+TÜRKİYE İLLERİ YAŞANABİLİRLİK ENDEKSİ - ÖZET RAPOR
+=====================================================
+
+GENEL BULGULAR
+--------------
+Analiz Kapsamı: 81 il
+Kategori Sayısı: 4 (Sağlık, Eğitim, Kültür, Ekonomi)
+
+EN YAŞANABİLİR 10 İL:
+   1. Edirne               (1.0000) - Marmara
+   2. Kastamonu            (0.9350) - Karadeniz
+   3. Isparta              (0.9289) - Akdeniz
+   4. Nevşehir            (0.8884) - İç Anadolu
+   5. Rize                 (0.8860) - Karadeniz
+   6. Sinop                (0.8795) - Karadeniz
+   7. Bolu                 (0.8692) - Karadeniz
+   8. Tunceli              (0.8573) - Doğu Anadolu
+   9. Burdur               (0.8464) - Akdeniz
+  10. Ardahan              (0.8410) - Doğu Anadolu
+
+EN AZ YAŞANABİLİR 10 İL:
+  72. Batman               (0.3203) - Güneydoğu Anadolu
+  73. Siirt                (0.3034) - Güneydoğu Anadolu
+  74. Kahramanmaraş       (0.2855) - Akdeniz
+  75. Van                  (0.2846) - Doğu Anadolu
+  76. Diyarbakır          (0.2773) - Güneydoğu Anadolu
+  77. Gaziantep            (0.2355) - Güneydoğu Anadolu
+  78. Mardin               (0.2245) - Güneydoğu Anadolu
+  79. Şırnak             (0.1981) - Güneydoğu Anadolu
+  80. Hakkari              (0.1803) - Doğu Anadolu
+  81. Şanlıurfa          (0.0000) - Güneydoğu Anadolu
+
+BÖLGE BAZLI ORTALAMA YAŞANABİLİRLİK ENDEKSİ:
+  Karadeniz                 0.7661
+  Ege                       0.7150
+  Marmara                   0.7100
+  İç Anadolu              0.6823
+  Akdeniz                   0.5589
+  Doğu Anadolu             0.5411
+  Güneydoğu Anadolu       0.2554
+
+HER BÖLGENİN BİRİNCİSİ:
+  Marmara                   -> Edirne (1.0000)
+  Karadeniz                 -> Kastamonu (0.9350)
+  Akdeniz                   -> Isparta (0.9289)
+  İç Anadolu              -> Nevşehir (0.8884)
+  Doğu Anadolu             -> Tunceli (0.8573)
+  Ege                       -> Muğla (0.8106)
+  Güneydoğu Anadolu       -> Kilis (0.4142)
+
+KATEGORİ LİDERLERİ:
+  Sağlık Lideri:  Edirne (1.0000)
+  Eğitim Lideri:  Ardahan (1.0000)
+  Kültür Lideri:  Nevşehir (1.0000)
+  Ekonomi Lideri: İstanbul (1.0000)
+
+Rapor oluşturulma tarihi: 17.05.2026 14:40
+
